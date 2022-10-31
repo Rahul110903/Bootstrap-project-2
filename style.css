@@ -44,8 +44,9 @@
 
 
 #firstpart{
-    background-color:rgb(255, 173, 22);height:700px;font-family:cursive;
+    background-color:rgb(255, 173, 22);font-family:cursive;
     padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 @media only screen and (max-width:860px){
@@ -63,4 +64,21 @@
 
 .countericon{
     font-size: 70px;
+}
+
+
+.link{
+    text-decoration:none;
+    color:white
+}
+
+@media only screen and (max-width:770px){
+    #telegram{
+        width:200px;
+        position: relative;
+        float: right;
+    }
+    #socialmedia{
+        padding-top: 60px !important;
+    }
 }
